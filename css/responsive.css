@@ -401,7 +401,11 @@ ul.link li {
     padding-bottom: 0px; 
 }
 
-.logo { width: 40%; padding-left: 0px;}
+.logo { 
+    width: clamp(50%, 100vw, 50%);
+    height: auto;
+    padding-left: 0px;
+}
 .togle_3 { display: none; }
 .toggle_menu { top: -35px; float: right; }
 .header_section { background-size: cover; padding-top: 15px; padding-bottom: 90px; background: #89cbeb; }
