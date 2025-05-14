@@ -45,7 +45,7 @@
   <div class="header_section">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col justify-content-start"> 
+        <div class="col justify-content-start">
           <div>
             <a href="index.html">
               <img src="images/logo-v2.png" class="rounded-3 img-logo" alt="Ana's Logo">
@@ -265,7 +265,7 @@
   <!-- choose section end -->
 
   <!-- footer section start -->
-  <div id = "bottom" class="footer_section layout_padding">
+  <div id="bottom" class="footer_section layout_padding">
     <div class="container">
       <div class="footer_main">
         <div class="footer_left">
@@ -281,8 +281,9 @@
                 class="padding_left_15">+1 (708) 312-7671</span></a></div>
         </div>
         <div class="footer_left">
-          <div class="location_text"><a href="mailto:apsolutionsnorthside@gmail.com"><img src="images/mail-icon.png"><span
-                class="padding_left_15" style="font-size: 16px;" >apsolutionsnorthside@gmail.com</span></a></div>
+          <div class="location_text"><a href="mailto:apsolutionsnorthside@gmail.com"><img
+                src="images/mail-icon.png"><span class="padding_left_15"
+                style="font-size: 16px;">apsolutionsnorthside@gmail.com</span></a></div>
         </div>
       </div>
       <div class="contact_section">
@@ -392,6 +393,7 @@
       emailjs.sendForm('service_tg8eyml', 'template_wnygouh', this)
         .then(function () {
           alert('Message sent successfully!');
+          form.reset(); // Reset the form here
         }, function (error) {
           alert('Failed to send the message. Error: ' + JSON.stringify(error));
         });
