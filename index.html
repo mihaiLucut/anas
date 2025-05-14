@@ -31,6 +31,13 @@
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
     media="screen">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("1y7d1A6l0m_v9Gkfg");
+    })();
+  </script>
+
 </head>
 
 <body>
@@ -38,17 +45,17 @@
   <div class="header_section">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col justify-content-start ml-5">
+        <div class="col justify-content-start"> 
           <div>
             <a href="index.html">
-              <img src="images/logo-v2.png" class="rounded-3 logo" alt="Ana's Logo">
+              <img src="images/logo-v2.png" class="rounded-3 img-logo" alt="Ana's Logo">
             </a>
           </div>
         </div>
-        <div class="col d-flex justify-content-end mr-5">
+        <div class="col d-flex justify-content-end">
           <div class="btn btn-primary rounded p-2 text-center">
             Call Now! <br>
-            <a href="tel:+17082445159" class="text-white text-decoration-none">708-244-5159</a>
+            <a href="tel:+17083127671" class="text-white text-decoration-none">(708) 312-7671</a>
           </div>
         </div>
       </div>
@@ -63,7 +70,7 @@
             padding-bottom: 0px; font-size: 28px; ">Transform your space</h1>
               <h2 class="banner_taital_1" style="
             padding-bottom: 0px; font-size: 23px;
-        ">with professional services</h1>
+        ">with professional organizational and cleaning services</h1>
                 <p class="banner_text text-justify">We focus on spotless results, consistent quality, and friendly
                   service: without the
                   hassle. Whether it’s <strong>home </strong> or <strong>office</strong>, we make clean easy, so you can
@@ -73,14 +80,14 @@
             <div class="play_icon" style="display: none;"><a href="#"><img src="images/play-icon.png"></a></div>
           </div>
           <div class="col-sm-5">
-            <div><img src="images/broom.png" class="image_1"></div>
+            <!-- <div><img src="images/broom.png" class="image_1"></div> -->
           </div>
         </div>
 
       </div>
       <div class="row">
         <div class="col d-flex justify-content-center">
-          <div class="contact_bt btn-custom p-2 rounded"><a href="contact.html">CONTACT US</a></div>
+          <div class="contact_bt btn-custom p-2 rounded"><a href="#bottom">CONTACT US</a></div>
         </div>
       </div>
     </div>
@@ -97,12 +104,12 @@
           <span style="padding-bottom: 0px; color: #89cbeb;">
             I am ANA</span>
         </h1>
-        <p class="banner_text text-justify">Hello, I am ANA, me and my associates provide cleaning services: I’m
-          Ana, and I’ve been in the cleaning business since 2016. I take pride in doing
+        <p class="banner_text text-justify">I started a family business providing cleaning services, and we've been
+          serving clients since 2016. I like doing
           things the right way: showing up on time, paying attention to the details, and
-          making sure every space feels transformed. This work matters to me, and I
-          treat every home like it’s my own. Over the years, I’ve built strong
-          relationships with my clients by being consistent, respectful, and dependable</p>
+          making sure every space feels transformed. This work matters to me. I will carry out each task with attention
+          to your preferences. Over the years I’ve built strong
+          relationships with my clients by being consistent, respectful, and dependable.</p>
       </div>
       <div class="col-sm-2">
         <div class="play_icon" style="display: none;"><a href="#"><img src="images/play-icon.png"></a></div>
@@ -118,11 +125,15 @@
     <div class="container">
       <h1 class="services_taital"><span>Our</span> <img src="images/icon-1.png"> <span
           style="color: #1f1f1f">Services</span></h1>
-      <p class="services_text">We offer reliable cleaning for homes, offices, and retail spaces, tailored to your schedule.
-        Deep & Specialty Cleaning – Move-in/move-out, post-construction, and detailed cleanups that leave every corner spotless.
-        Recurring Cleaning & Organization – Ongoing cleaning plans and personalized organizing solutions to keep life tidy and stress-free.</p>
-      <div id="main_slider" class="carousel slide" data-ride="carousel">
+      <p class="services_text">We offer reliable cleaning for homes, offices, and retail spaces, tailored to your
+        schedule.
+        Deep & Specialty Cleaning – Move-in/move-out, post-construction, and detailed cleanups that leave every corner
+        spotless.
+        Recurring Cleaning & Organization – Ongoing cleaning plans and personalized organizing solutions to keep life
+        tidy and stress-free.</p>
+      <div id="main_slider" class="carousel slide" data-ride="carousel" data-touch="true" data-interval="false">
         <div class="carousel-inner">
+          <p>Slide to see more</p>
           <div class="carousel-item active">
             <div class="services_section_2 layout_padding">
               <div class="row">
@@ -204,6 +215,7 @@
               </div>
             </div>
           </div>
+          <p>Slide to see more</p>
         </div>
         <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
           <i class="fa fa-angle-left"></i>
@@ -228,19 +240,19 @@
         <div class="row">
           <div class="col-lg-3 col-sm-6">
             <div class="choose_box">
-              <h1 class="client_taital">107</h1>
+              <h1 class="client_taital">100+</h1>
               <h4 class="client_text">Jobs Completed</h4>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="choose_box">
-              <h1 class="client_taital">40</h1>
+              <h1 class="client_taital">40+</h1>
               <h4 class="client_text">Reviews</h4>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="choose_box">
-              <h1 class="client_taital">10+</h1>
+              <h1 class="client_taital">10+ years</h1>
               <h4 class="client_text">In Business</h4>
             </div>
           </div>
@@ -253,35 +265,37 @@
   <!-- choose section end -->
 
   <!-- footer section start -->
-  <div class="footer_section layout_padding">
+  <div id = "bottom" class="footer_section layout_padding">
     <div class="container">
       <div class="footer_main">
         <div class="footer_left">
-          <h1 class="contact_taital"><span>Contact </span> <img src="images/icon-2.png"> <span>Us</span></h1>
+          <h1 class="contact_taital"><img src="images/icon-2.png"> <span>Contact Us</span></img></h1>
         </div>
         <div class="footer_left">
-          <div class="location_text"><a href="https://maps.app.goo.gl/tfVRw8Q9bYCCDaFV8"><img src="images/map-icon.png"><span class="padding_left_15">Niles,
+          <div class="location_text"><a href="https://maps.app.goo.gl/tfVRw8Q9bYCCDaFV8"><img
+                src="images/map-icon.png"><span class="padding_left_15">Niles,
                 IL</span></a></div>
         </div>
         <div class="footer_left">
-          <div class="location_text"><a href="#"><img src="images/call-icon.png"><span class="padding_left_15">+708 244
-                5159</span></a></div>
+          <div class="location_text"><a href="tel:7083127671"><img src="images/call-icon.png"><span
+                class="padding_left_15">+1 (708) 312-7671</span></a></div>
         </div>
         <div class="footer_left">
-          <div class="location_text"><a href="#"><img src="images/mail-icon.png"><span
-                class="padding_left_15">apsolutionsnorthside@gmail.com</span></a></div>
+          <div class="location_text"><a href="mailto:apsolutionsnorthside@gmail.com"><img src="images/mail-icon.png"><span
+                class="padding_left_15" style="font-size: 16px;" >apsolutionsnorthside@gmail.com</span></a></div>
         </div>
       </div>
       <div class="contact_section">
         <div class="row">
           <div class="col-md-6">
-            <div class="mail_section">
-              <input type="" class="email_text" placeholder="Name" name="Name">
-              <input type="" class="email_text" placeholder="Email" name="Email">
-              <input type="" class="email_text" placeholder="Phone Number" name="Phone Number">
-              <textarea class="massage_text" placeholder="Message" rows="5" id="comment" name="Message"></textarea>
-              <div class="send_bt"><a href="#">send</a></div>
-            </div>
+            <form id="contact-form" class="mail-section">
+              <input type="text" class="email_text" placeholder="Name" name="name" required>
+              <input type="email" class="email_text" placeholder="Email" name="email" required>
+              <input type="text" class="email_text" placeholder="Phone Number" name="phone">
+              <textarea class="massage_text" placeholder="Describe what you need" rows="5" name="message"
+                required></textarea>
+              <button type="submit" class="contact_bt btn-custom px-4 rounded">Send</button>
+            </form>
           </div>
           <div class="col-md-6">
             <div class="map_main">
@@ -350,6 +364,80 @@
       document.getElementById("myNav").style.width = "0%";
     }
   </script>
+  <script>
+    // Enable swipe gestures on carousel
+    $('#main_slider').on('touchstart', function (event) {
+      const xClick = event.originalEvent.touches[0].pageX;
+      $(this).one('touchmove', function (event) {
+        const xMove = event.originalEvent.touches[0].pageX;
+        const sensitivityInPx = 5;
+
+        if (Math.floor(xClick - xMove) > sensitivityInPx) {
+          $(this).carousel('next');
+        }
+        else if (Math.floor(xClick - xMove) < -sensitivityInPx) {
+          $(this).carousel('prev');
+        }
+      });
+
+      $(this).on('touchend', function () {
+        $(this).off('touchmove');
+      });
+    });
+  </script>
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      emailjs.sendForm('service_tg8eyml', 'template_wnygouh', this)
+        .then(function () {
+          alert('Message sent successfully!');
+        }, function (error) {
+          alert('Failed to send the message. Error: ' + JSON.stringify(error));
+        });
+    });
+  </script>
+
+  <!-- cleaning meta business -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Ana's Preferred Solutions",
+      "description": "Professional residential and commercial cleaning services in Niles and nearby areas.",
+      "url": "https://apsolutionsnorthside.com/",
+      "telephone": "+1 (708) 312-7671",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Niles",
+        "addressRegion": "IL",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Niles, IL"
+        },
+        {
+          "@type": "Place",
+          "name": "Park Ridge, IL"
+        },
+        {
+          "@type": "Place",
+          "name": "Des Plaines, IL"
+        }
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "42.0189",
+        "longitude": "-87.8028"
+      },
+      "openingHours": "Mo-Sa 08:00-18:00",
+      "priceRange": "$$",
+      "logo": "https://apsolutionsnorthside.com/images/logo-v2.png"
+    }
+    </script>
+
 </body>
 
 </html>

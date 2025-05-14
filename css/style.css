@@ -978,3 +978,8 @@ body p {
     color: #181919 !important;
     font-weight: 400;
 }
+.img-logo {
+    min-width: 145px; /* Replace 200px with your desired value */
+    width: auto; /* Keeps the image scaling proportionally */
+    height: auto; /* Optional: Keeps aspect ratio */
+  }
